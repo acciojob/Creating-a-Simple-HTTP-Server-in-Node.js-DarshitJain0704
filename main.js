@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, () => {
-  // TODO: Log a message to the console when the server starts listening on the port
+  console.log('Testing server');
 });
 
 // DO NOT EDIT BELOW THIS LINE
